@@ -3,10 +3,21 @@
   "version": "0.0.1",
   "description": "Moodle JS toolkit",
   "main": "index.js",
+  "dependencies": {
+    "ansi-color": "*",
+    "nopt": "*",
+    "log4js": "*",
+    "shifter": "0.2.15",
+    "yuidocjs": "*",
+    "mjs-sub": "git://github.com/andrewnicols/mjs-sub.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/andrewniocls/mjs.git",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/andrewnicols/mjs.git"
+  },
   "keywords": [
     "moodle",
     "yui"

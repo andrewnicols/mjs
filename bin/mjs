@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+/**
+ * Copyright 2013 Andrew Nicols <andrew@nicols.co.uk>
+ *
+ * Licensed under the BSD License
+ */
+
+var path = require('path');
+var mjs = require(path.join('../lib'));
+
+mjs.init();
